@@ -399,6 +399,10 @@ public class Nuker {
                 block == Blocks.lit_redstone_ore ||
                 block == Blocks.diamond_ore ||
                 block == Blocks.emerald_ore ||
+                block == Blocks.iron_block ||
+                block == Blocks.diamond_block ||
+                block == Blocks.redstone_block ||
+                block == Blocks.lapis_block ||
                 block == Blocks.quartz_ore)) return true;
 
         if (NukerBlockFilter.nukerBlockFilterObsidian &&
